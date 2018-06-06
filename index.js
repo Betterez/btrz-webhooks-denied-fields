@@ -1,6 +1,6 @@
 "use strict";
 module.exports = {
   getFields() {
-    return require("denied-fields.json");
+    return require("./denied-fields.json");
   }
 };
