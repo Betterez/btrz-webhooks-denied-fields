@@ -13,6 +13,8 @@ defmodule BtrzWebhooksDeniedFields do
 
   """
   def get_fields do
-    File.read!("./denied-fields.json") |> Poison.decode!()
+    Path.join(:code.priv_dir(:btrz_webhooks_denied_fields), "denied-fields.json")
+    |> File.read!()
+    |> Poison.decode!()
   end
 end

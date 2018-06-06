@@ -5,6 +5,6 @@ const deniedFields = require("../"),
 describe("getFields()", () => {
   it("should return the json object", () => {
     const fields = deniedFields.getFields();
-    expect(require("../denied-fields.json")).to.be.eql(fields);
+    expect(require("../priv/denied-fields.json")).to.be.eql(fields);
   });
 });
