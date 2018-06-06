@@ -8,6 +8,9 @@ yarn-error.log*
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
+# Compiled elixir
+_build
+
 # Dependency directories
 node_modules/
 deps

@@ -8,7 +8,7 @@ Install...
 ```elixir
 def deps do
   [
-    {:btrz_ex_webhooks_emitter, git: "git://github.com/Betterez/btrz-webhooks-denied-fields.git"}
+    {:btrz_webhooks_denied_fields, git: "git://github.com/Betterez/btrz-webhooks-denied-fields.git"}
   ]
 end
 ```

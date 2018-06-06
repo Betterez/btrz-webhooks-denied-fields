@@ -4,15 +4,15 @@ defmodule BtrzWebhooksDeniedFields do
   """
 
   @doc """
-  Hello world.
+  Get the denied fields.
 
   ## Examples
 
-      iex> BtrzWebhooksDeniedFields.hello
-      :world
+      iex> BtrzWebhooksDeniedFields.get_fields()
+      %{"*" => ["password", "credentials"]}
 
   """
   def get_fields do
-    File.read!("../denied-fields.json") |> Poison.decode!()
+    File.read!("./denied-fields.json") |> Poison.decode!()
   end
 end
