@@ -1,0 +1,19 @@
+{
+  "name": "btrz-webhooks-denied-fields",
+  "version": "1.0.0",
+  "description": ":no_entry: Denied fields for the webhooks emitters",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Betterez/btrz-webhooks-denied-fields.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Betterez/btrz-webhooks-denied-fields/issues"
+  },
+  "homepage": "https://github.com/Betterez/btrz-webhooks-denied-fields#readme"
+}

@@ -1,0 +1,14 @@
+{
+  "*": [
+    "password", 
+    "deleted",
+    "createdAt",
+    "updatedAt"
+  ],
+  "customer.*": [
+    "credentials", 
+    "clout",
+    "mergedFrom",
+    "mergedTo"
+  ]
+}
