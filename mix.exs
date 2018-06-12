@@ -8,6 +8,10 @@ defmodule BtrzWebhooksDeniedFields.MixProject do
     [
       app: :btrz_webhooks_denied_fields,
       version: @version,
+      name: "BtrzWebhooksDeniedFields",
+      description: "Denied fields for Betterez webhooks",
+      source_url: @github_url,
+      homepage_url: @github_url,
       elixir: "~> 1.5",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
