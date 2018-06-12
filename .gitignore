@@ -18,4 +18,6 @@ deps
 # Optional npm cache directory
 .npm
 
+doc/
+
 .elixir_ls

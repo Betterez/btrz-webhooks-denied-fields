@@ -39,7 +39,8 @@ defmodule BtrzWebhooksDeniedFields.MixProject do
   defp deps do
     [
       {:poison, "~> 3.0"},
-      {:excoveralls, "~> 0.8", only: :test}
+      {:excoveralls, "~> 0.8", only: :test},
+      {:ex_doc, "~> 0.16", only: :dev, runtime: false}
     ]
   end
 
