@@ -2,7 +2,7 @@ defmodule BtrzWebhooksDeniedFields.MixProject do
   use Mix.Project
 
   @github_url "https://github.com/Betterez/btrz_webhooks_denied_fields"
-  @version "0.1.1"
+  @version "0.1.2"
 
   def project do
     [
