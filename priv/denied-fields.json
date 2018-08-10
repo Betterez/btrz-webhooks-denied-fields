@@ -10,5 +10,12 @@
     "clout",
     "mergedFrom",
     "mergedTo"
+  ],
+  "shift.*": [
+    "items",
+    "transactions",
+    "tickets",
+    "refunds",
+    "redeemableItems"
   ]
 }
