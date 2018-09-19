@@ -1,9 +1,6 @@
 {
   "*": [
-    "password", 
-    "deleted",
-    "createdAt",
-    "updatedAt"
+    "password"
   ],
   "customer.*": [
     "credentials", 
@@ -17,5 +14,12 @@
     "tickets",
     "refunds",
     "redeemableItems"
+  ],
+  "user.*": [
+    "locked",
+    "logins",
+    "permissions",
+    "previousPwd",
+    "failedLogins"
   ]
 }

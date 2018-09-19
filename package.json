@@ -1,6 +1,6 @@
 {
   "name": "btrz-webhooks-denied-fields",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": ":no_entry: Denied fields for the webhooks emitters",
   "main": "index.js",
   "scripts": {
