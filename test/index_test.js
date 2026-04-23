@@ -1,10 +1,10 @@
-"use strict";
-const deniedFields = require("../"),
-  expect = require("chai").expect;
+const {describe, it} = require("node:test");
+const assert = require("node:assert/strict");
+const deniedFields = require("../");
 
 describe("getFields()", () => {
   it("should return the json object", () => {
     const fields = deniedFields.getFields();
-    expect(require("../priv/denied-fields.json")).to.be.eql(fields);
+    assert.deepStrictEqual(require("../priv/denied-fields.json"), fields);
   });
 });

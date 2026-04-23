@@ -4,7 +4,7 @@
   "description": ":no_entry: Denied fields for the webhooks emitters",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=test node_modules/mocha/bin/_mocha test/*.js"
+    "test": "NODE_ENV=test node --test test/*.js"
   },
   "repository": {
     "type": "git",
@@ -15,9 +15,6 @@
   "bugs": {
     "url": "https://github.com/Betterez/btrz-webhooks-denied-fields/issues"
   },
-  "devDependencies": {
-    "mocha": "^2.4.5",
-    "chai": "3.5.0"
-  },
+  "devDependencies": {},
   "homepage": "https://github.com/Betterez/btrz-webhooks-denied-fields#readme"
 }
